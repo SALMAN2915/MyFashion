@@ -28,7 +28,7 @@ header .logo {
 
 header .cart button {
     padding: 10px;
-    background-color: #ff6600;
+    background-color: #02a1e0;
     border: none;
     color: white;
     font-size: 16px;
@@ -36,7 +36,7 @@ header .cart button {
 }
 
 header .cart button:hover {
-    background-color: #ff8533;
+    background-color: #03b8ff;
 }
 
 main {
@@ -74,7 +74,7 @@ main {
 }
 
 .add-to-cart {
-    background-color: #ff6600;
+    background-color: #02a1e0;
     border: none;
     color: white;
     padding: 10px;
@@ -83,7 +83,7 @@ main {
 }
 
 .add-to-cart:hover {
-    background-color: #ff8533;
+    background-color: #00b7ff;
 }
 
 .cart-details {
@@ -154,7 +154,7 @@ main {
 }
 
 #cart-items button {
-    background-color: #ff3300;
+    background-color: #02a1e0;
     border: none;
     color: white;
     padding: 5px 10px;
@@ -162,7 +162,7 @@ main {
 }
 
 #cart-items button:hover {
-    background-color: #ff6666;
+    background-color: #03b8ff;
 }
 
 #total-price {
@@ -272,7 +272,7 @@ main {
 }
 
 #shopMoreBtn {
-    background-color: #f44336;
+    background-color: #02a1e0;
     color: white;
     border: none;
 }
