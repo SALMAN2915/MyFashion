@@ -1,0 +1,170 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .cart button {
+    background-color: #02a1e0;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .cart button:hover {
+    background-color: #00b7ff;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+ul#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+ul#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+}
+
+ul#cart-items li:last-child {
+    border-bottom: none;
+}
+
+#total-price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+    color: #333;
+}
+
+#user-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#user-details input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#user-details input:focus {
+    border-color: #02a1e0;
+    outline: none;
+}
+
+#share-order-btn {
+    background-color: #02a1e0;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#share-order-btn:hover {
+    background-color: #00b7ff;    
+}
+
+.remove-btn{
+    background-color: #02a1e0;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color:#00b7ff;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    ul#cart-items li {
+        font-size: 16px;
+    }
+
+    #total-price {
+        font-size: 18px;
+    }
+
+    #share-order-btn {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+}
